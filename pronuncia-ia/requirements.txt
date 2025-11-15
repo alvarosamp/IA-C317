@@ -1,0 +1,48 @@
+# ====================================
+# Dependências do Projeto C317 - IA
+# ====================================
+
+# Framework Web
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+
+# Machine Learning & IA
+transformers==4.47.1
+torch==2.5.1
+torchaudio==2.5.1
+librosa==0.10.2.post1
+soundfile==0.12.1
+
+# Modelos de Speech-to-Text
+faster-whisper==1.1.0
+# deepspeech==0.9.3  # Opcional, descomentar se usar
+# coqui-stt==1.4.0   # Opcional, descomentar se usar
+
+# APIs de IA
+openai>=1.55.3
+google-generativeai>=0.8.3
+
+# Algoritmos de Similaridade
+python-Levenshtein==0.26.1
+# Alternativa mais moderna:
+# rapidfuzz==3.10.1  # Substitui Levenshtein com melhor performance
+
+# Utilitários
+python-dotenv==1.0.1
+python-multipart==0.0.20
+numpy==1.26.4
+
+# Cliente HTTP (para testes via API)
+requests==2.32.3
+
+# Testes
+pytest==8.3.4
+pytest-cov==6.0.0
+pytest-asyncio==0.24.0
+httpx==0.28.1
+
+# Opcional: para otimização
+# accelerate==1.2.1  # Para GPU
+# bitsandbytes==0.45.0  # Quantização de modelos
+# cuda-python==12.6.2  # Se tiver CUDA
